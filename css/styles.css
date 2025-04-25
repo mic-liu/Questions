@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
 }
 
 .question-jump input {
-    width: auto; /* 改为auto让宽度自动适应内容 */
+    max-width: 70px;
     min-width: 60px; /* 设置最小宽度 */
     padding: 0.375rem 0.75rem;
     border: 1px solid #ced4da;
