@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Question Data Source</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h4><strong>Select Question Data Source</strong></h4> <!-- 使用<strong>标签加粗 -->
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="jsonFileAccordion">
+                    <!-- 动态生成的内容将插入到这里 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap和jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        async function loadJsonPaths() {
+            try {
+                const response = await fetch('../data/datasourcePaths.json');
+                const data = await response.json();
+                const accordion = document.getElementById('jsonFileAccordion');
+                data.paths.forEach((item, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <div class="card-header" id="heading${index}" onclick="selectJson('${item.path}', '${item.color}')" style="cursor: pointer;">
+                            <h2 class="mb-0">
+                                <span class="btn btn-link">
+                                    <strong>${item.name}</strong> <!-- 使用<strong>标签加粗 -->
+                                </span>
+                            </h2>
+                        </div>
+                    `;
+                    accordion.appendChild(card);
+                });
+            } catch (error) {
+                console.error('加载JSON路径失败:', error);
+            }
+        }
+
+        function selectJson(path, color) {
+            const preJsonPath = localStorage.getItem('selectedJsonPath');
+            localStorage.setItem('selectedJsonPath', path);
+            localStorage.setItem('selectedJsonColor', color);
+            if (path !== preJsonPath) {
+                localStorage.setItem('currentQuestion', 0);
+            }
+            window.location.href = '../html/question_display.html'; // 跳转到问题显示页面
+        }
+
+        document.addEventListener('DOMContentLoaded', loadJsonPaths);
+    </script>
+</body>
+</html>

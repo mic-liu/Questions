@@ -1,34 +1,47 @@
 // Cookie相关功能
 function saveCurrentQuestion(questionId) {
-    document.cookie = `currentQuestion=${questionId}; path=/; max-age=86400`; // 保存1天
+    localStorage.setItem('currentQuestion', questionId); // 使用localStorage保存当前问题编号
 }
 
-function getCurrentQuestionFromCookie() {
-    const cookies = document.cookie.split(';');
-    for (let cookie of cookies) {
-        const [name, value] = cookie.trim().split('=');
-        if (name === 'currentQuestion') {
-            return parseInt(value) || 0;
-        }
-    }
-    return 0; // 如果没有Cookie，默认返回第一题
+function getCurrentQuestionFromStorage() {
+    return parseInt(localStorage.getItem('currentQuestion')) || 0; // 从localStorage获取当前问题编号
 }
 
 // 问题展示相关变量和函数
-let currentQuestionIndex = getCurrentQuestionFromCookie();
+let currentQuestionIndex = getCurrentQuestionFromStorage();
 let questions = [];
 
 // 加载问题数据
 async function loadQuestions() {
     try {
-        const response = await fetch('../data/merged_questions.json');
+        const jsonPath = localStorage.getItem('selectedJsonPath');
+        const headerColor = localStorage.getItem('selectedJsonColor') || '#0d6efd'; // 默认颜色
+
+        if (!jsonPath) {
+            alert('No JSON path found. Please select a JSON file first.');
+            window.location.href = 'selectJson.html'; // 如果没有路径，跳转到选择页面
+            return;
+        }
+
+        const response = await fetch(jsonPath);
         const data = await response.json();
         questions = data.questions.sort((a, b) => a.id - b.id);
         
+        // 检查currentQuestionIndex是否超出范围
+        if (currentQuestionIndex >= questions.length) {
+            currentQuestionIndex = 0; // 重置为第一个问题
+            saveCurrentQuestion(currentQuestionIndex); // 重置localStorage的值
+        }
+
         // 更新总题目数量显示
         document.getElementById('totalQuestions').textContent = questions.length;
         updateNavigationButtons();
         showCurrentQuestion();
+
+        // 设置card-header颜色
+        document.querySelectorAll('.card-header').forEach(header => {
+            header.style.backgroundColor = headerColor;
+        });
     } catch (error) {
         console.error('加载问题失败:', error);
     }
@@ -41,8 +54,12 @@ function showCurrentQuestion() {
     
     if (question) {
         container.innerHTML = createQuestionHtml(question);
+        const headerColor = localStorage.getItem('selectedJsonColor') || '#0d6efd'; // 默认颜色
+        document.querySelectorAll('.card-header').forEach(header => {
+            header.style.backgroundColor = headerColor;
+        });
         document.getElementById('jumpInput').value = currentQuestionIndex + 1;
-        saveCurrentQuestion(currentQuestionIndex); // 保存当前题目到Cookie
+        saveCurrentQuestion(currentQuestionIndex); // 保存当前题目到localStorage
     }
 }
 

@@ -1,0 +1,14 @@
+{
+    "paths": [
+        {
+            "name": "P_BTPA_2408-120",
+            "path": "../data/P_BTPA_2408-120.json",
+            "color": "#ff5733" 
+        },
+        {
+            "name": "P_BTPA_2408-43",
+            "path": "../data/P_BTPA_2408-43.json",
+            "color": "#33c4ff" 
+        }
+    ]
+}

@@ -1,0 +1,1353 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "title": "Question-1",
+            "content": [
+                "What does the data fabric architecture primarily aim to achieve?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Provide customer support and relationship management"
+                },
+                {
+                    "id": "B",
+                    "text": "Centralize, link, manage, and control data from various systems and applications"
+                },
+                {
+                    "id": "C",
+                    "text": "Develop and deploy mobile applications"
+                },
+                {
+                    "id": "D",
+                    "text": "Simplify the user interface for data applications"
+                }
+            ],
+            "answer": [
+                "B"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Question-2",
+            "content": [
+                "What are the best practices for implementing the SAP Integration Solution Advisory Methodology?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Focusing solely on internal processes, avoiding external integration"
+                },
+                {
+                    "id": "B",
+                    "text": "Continuous monitoring, user feedback integration"
+                },
+                {
+                    "id": "C",
+                    "text": "Limiting budget allocation, reducing training opportunities"
+                },
+                {
+                    "id": "D",
+                    "text": "Ignoring technological advancements, restricting automation"
+                },
+                {
+                    "id": "E",
+                    "text": "Reducing system updates, limiting stakeholder involvement"
+                }
+            ],
+            "answer": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Question-3",
+            "content": [
+                "A customer requires a pricing plan for the SAP Integration Suite service with monthly billing in arrears. Which pricing plan would you recommend to the customer?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "SAP BTP trial"
+                },
+                {
+                    "id": "B",
+                    "text": "SAP BTPEA"
+                },
+                {
+                    "id": "C",
+                    "text": "Pay-As-You-Go for SAP BTP"
+                },
+                {
+                    "id": "D",
+                    "text": "Subscription"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Question-4",
+            "content": [
+                "What is the primary purpose of SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "To manage employee payroll."
+                },
+                {
+                    "id": "B",
+                    "text": "To limit data accessibility."
+                },
+                {
+                    "id": "C",
+                    "text": "To reduce the use of cloud services."
+                },
+                {
+                    "id": "D",
+                    "text": "To integrate, extend, and innovate applications."
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Question-5",
+            "content": [
+                "Which services are part of SAP BTP's AI capabilities?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "SAP Data Intelligence"
+                },
+                {
+                    "id": "B",
+                    "text": "SAP AI Foundation"
+                },
+                {
+                    "id": "C",
+                    "text": "SAP AI Core"
+                },
+                {
+                    "id": "D",
+                    "text": "SAP Conversational AI"
+                }
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Question-6",
+            "content": [
+                "What role does SAP Data Intelligence play in SAP BTP's architecture?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Provides tools for building and deploying machine learning models"
+                },
+                {
+                    "id": "B",
+                    "text": "Serves as the primary platform for managing master data"
+                },
+                {
+                    "id": "C",
+                    "text": "Offers real-time analytics capabilities"
+                },
+                {
+                    "id": "D",
+                    "text": "Facilitates data integration and orchestration across different systems"
+                }
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Question-7",
+            "content": [
+                "What are the key components of the SAP Application Extension Methodology Template overview?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Phase 1: Assess Extension Use Case"
+                },
+                {
+                    "id": "B",
+                    "text": "Phase 4: Assess Integration Testing"
+                },
+                {
+                    "id": "C",
+                    "text": "Phase 2: Assess Extension Technology"
+                },
+                {
+                    "id": "D",
+                    "text": "Phase 5: Assess Data Migration"
+                }
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Question-8",
+            "content": [
+                "Which SAP BTP service would you use to ensure secure identity management across multiple cloud applications?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "SAP Cloud Identity Access Governance"
+                },
+                {
+                    "id": "B",
+                    "text": "SAP Business Technology Platform Identity Provider"
+                },
+                {
+                    "id": "C",
+                    "text": "SAP Identity Provisioning Service"
+                },
+                {
+                    "id": "D",
+                    "text": "SAP Identity Authentication Service"
+                }
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Question-9",
+            "content": [
+                "Which SAP BTP extensibility types allow the development of side-by-side extensions without modifying the core system?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "In-app extensibility"
+                },
+                {
+                    "id": "B",
+                    "text": "Hybrid extensibility"
+                },
+                {
+                    "id": "C",
+                    "text": "Embedded extensibility"
+                },
+                {
+                    "id": "D",
+                    "text": "Side-by-side extensibility"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Question-10",
+            "content": [
+                "What is the strategic focus of an enterprise architect compared to a solution architect?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Higher technological focus than strategic focus."
+                },
+                {
+                    "id": "B",
+                    "text": "No strategic focus, only a technological focus."
+                },
+                {
+                    "id": "C",
+                    "text": "Equal emphasis on strategic and technological focus."
+                },
+                {
+                    "id": "D",
+                    "text": "Higher strategic focus than technological focus."
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Question-11",
+            "content": [
+                "What are the core components of SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Hardware, networking, security, and infrastructure."
+                },
+                {
+                    "id": "B",
+                    "text": "Social media, advertising, content creation, and SEO."
+                },
+                {
+                    "id": "C",
+                    "text": "Database, data management, and analytics."
+                },
+                {
+                    "id": "D",
+                    "text": "Payroll, human resources, marketing, and sales."
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Question-12",
+            "content": [
+                "What is one benefit of implementing a well-structured reference architecture for generative AI solutions?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "It ensures scalability, security, and maintainability of AI solutions."
+                },
+                {
+                    "id": "B",
+                    "text": "It simplifies the process of creating marketing strategies."
+                },
+                {
+                    "id": "C",
+                    "text": "It mainly focuses on manual data processing."
+                },
+                {
+                    "id": "D",
+                    "text": "It decreases the efficiency of AI deployments."
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Question-13",
+            "content": [
+                "Which phase of the SAP Data and Analytics Advisory Methodology involves defining the business outcome and solution requirements?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Phase III: Capability map and solution architecture"
+                },
+                {
+                    "id": "B",
+                    "text": "Phase IV: Data governance and roadmaps"
+                },
+                {
+                    "id": "C",
+                    "text": "Scoping and baseline analysis"
+                },
+                {
+                    "id": "D",
+                    "text": "Phase II: Business outcomes and solution requirements"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Question-14",
+            "content": [
+                "Which factors should be considered when planning a DevOps strategy for applications on SAP BTP?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Scalability of the DevOps pipeline"
+                },
+                {
+                    "id": "B",
+                    "text": "Compliance with SAP BTP's security standards"
+                },
+                {
+                    "id": "C",
+                    "text": "Integration with on-premise DevOps tools"
+                },
+                {
+                    "id": "D",
+                    "text": "Continuous integration and continuous delivery (CI/CD)"
+                }
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Question-15",
+            "content": [
+                "Which frameworks provide the structure for enterprise architecture?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "CAP"
+                },
+                {
+                    "id": "B",
+                    "text": "FEAF"
+                },
+                {
+                    "id": "C",
+                    "text": "RAP"
+                },
+                {
+                    "id": "D",
+                    "text": "Gartner EA Framework"
+                },
+                {
+                    "id": "E",
+                    "text": "CPEA"
+                }
+            ],
+            "answer": [
+                "B",
+                "D"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Question-16",
+            "content": [
+                "Which scenarios are best suited for using SAP's Cloud Application Programming Model (CAP) within SAP BTP?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Implementing real-time analytics"
+                },
+                {
+                    "id": "B",
+                    "text": "Building AI-powered applications"
+                },
+                {
+                    "id": "C",
+                    "text": "Developing multi-tenant SaaS applications"
+                },
+                {
+                    "id": "D",
+                    "text": "Creating extensions for SAP S/4HANA"
+                }
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Question-17",
+            "content": [
+                "Which components are part of the SAP Integration Suite?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Customer Relationship Management and Sales Tracking."
+                },
+                {
+                    "id": "B",
+                    "text": "Social Media Management and Marketing Tools."
+                },
+                {
+                    "id": "C",
+                    "text": "SAP Business Accelerator Hub and Cloud Integration."
+                },
+                {
+                    "id": "D",
+                    "text": "Video Editing and Graphic Design Software."
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Question-18",
+            "content": [
+                "What are the five key aspects of SAP's integration strategy?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Platform approach, agility, integration democratization, intelligent life cycle management, analytics"
+                },
+                {
+                    "id": "B",
+                    "text": "Platform approach, limited scalability, manual integration, static life cycle management, basic reporting"
+                },
+                {
+                    "id": "C",
+                    "text": "Custom solutions, isolated processes, manual integration, static life cycle management, basic reporting"
+                },
+                {
+                    "id": "D",
+                    "text": "Basic platform, limited agility, integration fragmentation, static life cycle management, no analytics"
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Question-19",
+            "content": [
+                "Which tool in SAP Signavio helps in identifying process inefficiencies?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Process Insights."
+                },
+                {
+                    "id": "B",
+                    "text": "Exclusive on-premises software."
+                },
+                {
+                    "id": "C",
+                    "text": "Manual entry logs."
+                },
+                {
+                    "id": "D",
+                    "text": "Customer feedback forms."
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Question-20",
+            "content": [
+                "What is a key characteristic of an Intelligent Enterprise?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Using advanced technologies to improve business outcomes."
+                },
+                {
+                    "id": "B",
+                    "text": "Limiting collaboration among departments."
+                },
+                {
+                    "id": "C",
+                    "text": "Reducing the use of data analytics."
+                },
+                {
+                    "id": "D",
+                    "text": "Increasing manual processes for efficiency."
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Question-21",
+            "content": [
+                "What method is used for secure authentication in SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Multifactor authentication (MFA)"
+                },
+                {
+                    "id": "B",
+                    "text": "Single Sign-On"
+                },
+                {
+                    "id": "C",
+                    "text": "Biometric authentication."
+                },
+                {
+                    "id": "D",
+                    "text": "Single password access."
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Question-22",
+            "content": [
+                "Which deployment options are supported by the ABAP RESTful Application Programming Model (RAP) on SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Hybrid deployment with cloud and on-premise components"
+                },
+                {
+                    "id": "B",
+                    "text": "On-premise deployment only"
+                },
+                {
+                    "id": "C",
+                    "text": "Both cloud and on-premise deployment"
+                },
+                {
+                    "id": "D",
+                    "text": "Cloud deployment only"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Question-23",
+            "content": [
+                "Which use cases are common for Enterprise Architecture?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Postmerger integration."
+                },
+                {
+                    "id": "B",
+                    "text": "Reducing marketing efforts."
+                },
+                {
+                    "id": "C",
+                    "text": "Application rationalization."
+                },
+                {
+                    "id": "D",
+                    "text": "Increasing stock prices."
+                },
+                {
+                    "id": "E",
+                    "text": "Limiting customer feedback."
+                }
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Question-24",
+            "content": [
+                "What is a key advantage of using open connectors?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Limited to SAP applications only"
+                },
+                {
+                    "id": "B",
+                    "text": "Increased manual configuration"
+                },
+                {
+                    "id": "C",
+                    "text": "Simplified integration with third-party applications"
+                },
+                {
+                    "id": "D",
+                    "text": "No support for third-party applications"
+                },
+                {
+                    "id": "E",
+                    "text": "Restricted to on-premises solutions"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Question-25",
+            "content": [
+                "What is the purpose of SAP's Application Extension Methodology (AEM)?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "To outline security practices for SAP BTP application development"
+                },
+                {
+                    "id": "B",
+                    "text": "To provide guidelines for integrating SAP BTP with third-party applications"
+                },
+                {
+                    "id": "C",
+                    "text": "To standardize the deployment process for SAP BTP applications"
+                },
+                {
+                    "id": "D",
+                    "text": "To define best practices for extending SAP applications using SAP BTP"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Question-26",
+            "content": [
+                "What is the primary focus of Phase IV of the SAP Data and Analytics Advisory Methodology?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Identifying pain points"
+                },
+                {
+                    "id": "B",
+                    "text": "Analyzing business outcomes and solution requirements"
+                },
+                {
+                    "id": "C",
+                    "text": "Reviewing data governance and creating a roadmap"
+                },
+                {
+                    "id": "D",
+                    "text": "Developing the solution architecture"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Question-27",
+            "content": [
+                "A company is using SAP BTP to develop a suite of interconnected applications. They need to ensure that data flows seamlessly between the applications while maintaining compliance with global data privacy regulations.",
+                "What should be included in the solution architecture?",
+                "There are 3 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Implement data residency controls using SAP BTP's compliance services"
+                },
+                {
+                    "id": "B",
+                    "text": "Develop custom data encryption solutions for each application"
+                },
+                {
+                    "id": "C",
+                    "text": "Leverage SAP Data Custodian for monitoring data access and compliance"
+                },
+                {
+                    "id": "D",
+                    "text": "Use a decentralized architecture to manage data in each region separately"
+                },
+                {
+                    "id": "E",
+                    "text": "Use SAP Integration Suite for secure data transfer between applications"
+                }
+            ],
+            "answer": [
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Question-28",
+            "content": [
+                "What is the first phase of the SAP Data and Analytics Advisory Methodology?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Data governance and roadmaps"
+                },
+                {
+                    "id": "B",
+                    "text": "Capability map and solution architecture"
+                },
+                {
+                    "id": "C",
+                    "text": "Business outcomes and solution requirements"
+                },
+                {
+                    "id": "D",
+                    "text": "Scoping and baseline analysis"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Question-29",
+            "content": [
+                "What is a key component of security in SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Identity and Access Management (IAM)"
+                },
+                {
+                    "id": "B",
+                    "text": "SAP Security Audit"
+                },
+                {
+                    "id": "C",
+                    "text": "SAP Business Application Studio"
+                },
+                {
+                    "id": "D",
+                    "text": "SAP HANA"
+                }
+            ],
+            "answer": [
+                "A"
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Question-30",
+            "content": [
+                "What is the primary responsibility of an enterprise architect?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Managing IT security policies."
+                },
+                {
+                    "id": "B",
+                    "text": "Developing specific solutions for complex requirements."
+                },
+                {
+                    "id": "C",
+                    "text": "Planning and developing software projects."
+                },
+                {
+                    "id": "D",
+                    "text": "Aligning IT strategy with business goals."
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 31,
+            "title": "Question-31",
+            "content": [
+                "What is a key element in promoting a culture of ownership and engagement within an organization?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Centralizing all decision-making processes"
+                },
+                {
+                    "id": "B",
+                    "text": "Focusing solely on short-term goals"
+                },
+                {
+                    "id": "C",
+                    "text": "Reducing communication channels to avoid confusion"
+                },
+                {
+                    "id": "D",
+                    "text": "Limiting access to integration tools to senior management"
+                },
+                {
+                    "id": "E",
+                    "text": "Encouraging individual accountability and team collaboration"
+                }
+            ],
+            "answer": [
+                "E"
+            ]
+        },
+        {
+            "id": 32,
+            "title": "Question-32",
+            "content": [
+                "Which approach uses neural networks to identify patterns in data?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Traditional Programming"
+                },
+                {
+                    "id": "B",
+                    "text": "Deep Learning (DL)"
+                },
+                {
+                    "id": "C",
+                    "text": "Machine Learning (ML)"
+                },
+                {
+                    "id": "D",
+                    "text": "Artificial Intelligence (AI)"
+                }
+            ],
+            "answer": [
+                "B"
+            ]
+        },
+        {
+            "id": 33,
+            "title": "Question-33",
+            "content": [
+                "What does Phase 2 of the SAP Application Extension Methodology assess?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Integration with existing systems"
+                },
+                {
+                    "id": "B",
+                    "text": "Integration of user authentication methods"
+                },
+                {
+                    "id": "C",
+                    "text": "Possible extension technologies"
+                },
+                {
+                    "id": "D",
+                    "text": "Possible data backup solutions"
+                }
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "id": 34,
+            "title": "Question-34",
+            "content": [
+                "What is the purpose of performing scoping of integration domains?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "To avoid integration with cloud-based systems"
+                },
+                {
+                    "id": "B",
+                    "text": "To limit the integration to specific technologies"
+                },
+                {
+                    "id": "C",
+                    "text": "To restrict integration to a single department"
+                },
+                {
+                    "id": "D",
+                    "text": "To reduce the number of integration projects"
+                },
+                {
+                    "id": "E",
+                    "text": "To define boundaries and areas of focus for integration efforts"
+                }
+            ],
+            "answer": [
+                "E"
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Question-35",
+            "content": [
+                "What is a primary benefit of an event-driven architecture in integration strategies?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Manual intervention for each business event"
+                },
+                {
+                    "id": "B",
+                    "text": "Delayed processing of business events"
+                },
+                {
+                    "id": "C",
+                    "text": "Isolated and independent system operations"
+                },
+                {
+                    "id": "D",
+                    "text": "Real-time processing and response to business events"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 36,
+            "title": "Question-36",
+            "content": [
+                "You are designing a solution on SAP BTP for a large enterprise. The company has existing on-premise SAP ERP systems and plans to extend its capabilities using SAP BTP. The solution should include new cloud-based applications and integration with the existing systems.",
+                "Which key considerations should you include in your architecture design?",
+                "There are 3 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Implement a hybrid identity management solution to support both on-premise and cloud-based applications"
+                },
+                {
+                    "id": "B",
+                    "text": "Design the architecture to leverage SAP BTP's clean core principle by minimizing custom code in the ERP system"
+                },
+                {
+                    "id": "C",
+                    "text": "Utilize SAP BTP's extensibility types to build side-by-side extensions"
+                },
+                {
+                    "id": "D",
+                    "text": "Develop the new applications directly within the on-premise environment to reduce complexity"
+                },
+                {
+                    "id": "E",
+                    "text": "Use SAP Integration Suite for seamless data integration between on-premise and cloud systems"
+                }
+            ],
+            "answer": [
+                "A",
+                "B",
+                "E"
+            ]
+        },
+        {
+            "id": 37,
+            "title": "Question-37",
+            "content": [
+                "Which tool is used for modeling business capabilities in SAP Enterprise Architecture?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Project Management Software."
+                },
+                {
+                    "id": "B",
+                    "text": "Marketing Automation Tool."
+                },
+                {
+                    "id": "C",
+                    "text": "Human Resource Management System."
+                },
+                {
+                    "id": "D",
+                    "text": "Enterprise Architecture Designer."
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 38,
+            "title": "Question-38",
+            "content": [
+                "What are the primary capabilities of the SAP Integration Suite?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Restricted toolset, no automation, and limited support"
+                },
+                {
+                    "id": "B",
+                    "text": "Single-purpose integrations, no prebuilt solutions, and minimal security"
+                },
+                {
+                    "id": "C",
+                    "text": "Isolated data processing, manual integrations, and limited API access"
+                },
+                {
+                    "id": "D",
+                    "text": "Basic data handling, no API management, and static integration protocols"
+                },
+                {
+                    "id": "E",
+                    "text": "Comprehensive integration tools, prebuilt integrations, and API management"
+                }
+            ],
+            "answer": [
+                "E"
+            ]
+        },
+        {
+            "id": 39,
+            "title": "Question-39",
+            "content": [
+                "Which SAP BTP service supports the development of machine learning models?",
+                "There are 2 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "SAP AI Foundation"
+                },
+                {
+                    "id": "B",
+                    "text": "SAP AI Core"
+                },
+                {
+                    "id": "C",
+                    "text": "SAP Data Intelligence"
+                },
+                {
+                    "id": "D",
+                    "text": "SAP Business Application Studio"
+                }
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "id": 40,
+            "title": "Question-40",
+            "content": [
+                "What is the role of SAP Integration Solution Advisory Methodology (ISA-M) in SAP BTP?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "To guide the creation of side-by-side extensions on SAP BTP"
+                },
+                {
+                    "id": "B",
+                    "text": "To define the deployment options for SAP BTP services"
+                },
+                {
+                    "id": "C",
+                    "text": "To standardize user interface design for SAP BTP applications"
+                },
+                {
+                    "id": "D",
+                    "text": "To provide a structured approach to integrating various SAP and non-SAP systems"
+                }
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "id": 41,
+            "title": "Question-41",
+            "content": [
+                "An enterprise is developing a new application on SAP BTP that will be accessed by a global workforce. The application needs to provide different levels of access based on user roles and locations.",
+                "How should the solution be architected?",
+                "There are 3 correct answers to this question."
+            ],
+            "type": "multiple_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Use SAP BTP's geolocation services to provide location-based access control"
+                },
+                {
+                    "id": "B",
+                    "text": "Integrate with an existing on-premise identity management system"
+                },
+                {
+                    "id": "C",
+                    "text": "Implement role-based access control using SAP BTP's identity management services"
+                },
+                {
+                    "id": "D",
+                    "text": "Utilize SAP's cloud-based identity federation services"
+                },
+                {
+                    "id": "E",
+                    "text": "Develop custom user access rules within the application"
+                }
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "id": 42,
+            "title": "Question-42",
+            "content": [
+                "Which part of the SAP AI architecture is responsible for handling text input from end users?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "SAP AI Launchpad"
+                },
+                {
+                    "id": "B",
+                    "text": "Generative AI Hub"
+                },
+                {
+                    "id": "C",
+                    "text": "SAP Joule"
+                },
+                {
+                    "id": "D",
+                    "text": "SAP AI Core"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        },
+        {
+            "id": 43,
+            "title": "Question-43",
+            "content": [
+                "In which phase of the SAP Data and Analytics Advisory Methodology is the target solution architecture developed?",
+                "Please choose the correct answer."
+            ],
+            "type": "single_choice",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Phase II: Business outcomes and solution requirements"
+                },
+                {
+                    "id": "B",
+                    "text": "Phase I: Scoping and baseline analysis"
+                },
+                {
+                    "id": "C",
+                    "text": "Phase III: Capability map and solution architecture"
+                },
+                {
+                    "id": "D",
+                    "text": "Phase IV: Data governance and roadmaps"
+                }
+            ],
+            "answer": [
+                "C"
+            ]
+        }
+    ]
+}
