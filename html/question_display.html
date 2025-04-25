@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择题展示</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <!-- 移除内联样式 -->
+</head>
+
+<body>
+    <div class="container mt-5">
+
+        <div id="questionContainer">
+            <!-- 问题将通过JavaScript动态加载 -->
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button id="prevButton" class="nav-button mx-2" disabled>上一题</button>
+        <div class="question-jump">
+            <span>第</span>
+            <input type="number" id="jumpInput" min="1" value="1">
+            <span>题 / 共</span>
+            <span id="totalQuestions">0</span>
+            <span>题</span>
+            <button id="jumpButton" class="nav-button mx-2">跳转</button>
+        </div>
+        <button id="nextButton" class="nav-button">下一题</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/sapQuestion.js"></script>
+</body>
+
+</html>
