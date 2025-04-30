@@ -48,18 +48,24 @@ async function loadQuestions() {
 }
 
 // 显示当前问题
+// 显示当前问题
 function showCurrentQuestion() {
     const container = document.getElementById('questionContainer');
     const question = questions[currentQuestionIndex];
     
     if (question) {
         container.innerHTML = createQuestionHtml(question);
-        const headerColor = localStorage.getItem('selectedJsonColor') || '#0d6efd'; // 默认颜色
+        const headerColor = localStorage.getItem('selectedJsonColor') || '#0d6efd';
         document.querySelectorAll('.card-header').forEach(header => {
             header.style.backgroundColor = headerColor;
         });
         document.getElementById('jumpInput').value = currentQuestionIndex + 1;
-        saveCurrentQuestion(currentQuestionIndex); // 保存当前题目到localStorage
+        saveCurrentQuestion(currentQuestionIndex);
+        
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto' // 使用auto模式立即跳转
+        });
     }
 }
 
